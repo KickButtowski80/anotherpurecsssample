@@ -1,0 +1,204 @@
+/*
+  Place all the styles related to the matching controller here.
+  They will automatically be included in application.css.
+*/
+body{
+    margin: 0;
+    padding: 0;
+    background: #cccccc;
+    font-family: sans-serif;    
+}
+
+.container{
+    width: 87%;
+    margin: 2% auto;
+}
+
+header{
+    background: #33cc33; 
+    height: 300px;
+}
+
+header h2{
+    color:white;
+    position:relative;
+    top:250px;
+    left:10px;
+}
+
+.bottom-header{
+    opacity:0.2; 
+    height:10px;
+    background:black;
+    position:relative;
+    top:245px;
+}
+
+p{
+    line-height:150%;
+}
+nav{
+    height: 45px;
+    background:#006699;
+    
+}
+
+.bottom-nav{
+    opacity:0.2; 
+    height:10px;
+    background:black;
+    position:relative;
+    top:40px;
+}
+
+ol{
+    list-style-type: none;
+    position:relative;
+    top: -17px; 
+    float:right;
+    
+}
+
+li{
+    display:inline-block;
+    padding:10px;
+    font-size:16px;
+    line-height:150%;
+}
+
+a{
+    text-decoration: none;
+    color:aliceblue;
+}
+.content-sec{
+    background:#7f8c8d;
+    height:3100px; 
+    position: relative;
+    top:-12px;
+    overflow: auto;
+    width: 100%;
+}
+.content-info{
+    width: 90%;
+    margin: 2% auto;
+    padding-top: 50px;
+    padding-bottom: 5px;
+}
+
+.article-content{
+    padding-right:25px;
+    padding-left:25px;
+}
+
+.red-link{
+    text-decoration:none;
+    color:red;
+}
+
+.section-title{
+    font-weight:600;
+    padding-bottom:5px;
+    
+}
+
+.underline{
+    background: #737373;
+    height:1px;
+    width:100%;
+}
+.tec-info{
+    border-collapse:collapse;
+    width: 100%;    
+}
+
+.tec-info thead{
+    background:gray;
+    font-weight:700;
+}
+.tec-info td{
+    padding: 15px;
+    border: 1px solid #737373;
+}
+
+button{
+    padding: 10px 15px;
+    border-radius: 5px;
+    background:#4d94ff;
+    color:aliceblue;
+    font-size:13px;
+}
+
+.code-snippit{
+    height:100px;
+    background:#808080; 
+    
+}
+
+pre{
+    width:80%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:20px;
+}
+
+#big-img{
+    width:100%;
+    background:#808080;
+}
+
+footer{
+    color: #999;
+    padding-bottom: 30px;
+}
+ 
+fieldset {
+      border: 0px;
+      border-top: 1px solid gray; 
+     padding: 25px;
+      
+}
+legend{
+    color:#999;
+}
+
+input{
+    width:70%;
+    float:right; 
+    height: 15px;
+}
+.input{
+    margin:5px;
+    width:70%;
+   text-align:center; 
+}
+
+textarea{
+    width:100%;
+}
+
+[type="submit"]{
+    width:100%;
+    background:red;
+    color:aliceblue;
+    height:30px;
+    border-radius: 5px;
+    font-size:16px;
+}
+
+.pull-left {
+  float: left;
+}
+ 
+.user-info h3,
+h4 {
+  padding-left: 30px;
+  overflow: hidden;
+  
+}
+
+.response { 
+  margin-left: 50px;
+  padding-left: 10px;
+  border-left: 1px solid #ccc;
+}
